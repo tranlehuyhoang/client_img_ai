@@ -30,7 +30,7 @@ const Home = () => {
         <div  style={{display :'flex' , flexWrap : 'wrap'}}>
           {state.map(e =>
             <div className='imgg'>
-              <img src={e.photo} alt="" srcset="" />
+              <img src={e.photo}  />
               <label >{e.name}</label></div>
           )}
         </div>

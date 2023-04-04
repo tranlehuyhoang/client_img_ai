@@ -7,13 +7,13 @@ function App() {
   return (
     <BrowserRouter>
       <header  style={{display :'flex'}}>
-        <Link to={'/'}>Trang chủ---</Link>
+        <Link to={'client_img_ai/'}>Trang chủ---</Link>
         <br />
-        <Link to={'/create-post'}>Tạo ảnh</Link>
+        <Link to={'/client_img_ai/create-post'}>Tạo ảnh</Link>
       </header>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/create-post' element={<CreatePost />}></Route>
+        <Route path='/client_img_ai/' element={<Home />}></Route>
+        <Route path='/client_img_ai/create-post' element={<CreatePost />}></Route>
       </Routes>
     </BrowserRouter>
   )
